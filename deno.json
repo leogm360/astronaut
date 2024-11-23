@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "start:dev": "deno run --allow-env --allow-read --allow-write scripts/watch.ts"
+  },
+  "imports": {
+    "@std/debounce": "jsr:@std/async/debounce"
+  }
+}
