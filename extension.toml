@@ -1,0 +1,7 @@
+id = "astronaut"
+name = "Astronaut"
+version = "0.0.1"
+schema_version = 1
+authors = ["Leonardo Moraes <fisix1@gmail.com>"]
+description = "🧑‍🚀 Astronaut is a dark theme for Zed text editor."
+repository = "https://github.com/leogm360/astronaut"
