@@ -1,8 +1,6 @@
 # Astronaut for Zed
 
-Astrounaut is a dark theme for Zed text editor. This is a port based on the
-[Astronaut Theme](https://marketplace.visualstudio.com/items?itemName=larabeatriz32.theme-astronaut)
-by [@larabeatrizms](https://github.com/larabeatrizms).
+Astronaut is a dark theme for Zed text editor. This is a port based on the [Astronaut Theme](https://marketplace.visualstudio.com/items?itemName=larabeatriz32.theme-astronaut) by [@larabeatrizms](https://github.com/larabeatrizms).
 
 ## Install
 
