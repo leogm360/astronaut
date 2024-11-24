@@ -4,11 +4,14 @@ const watch = (path: string) => Deno.watchFs(path);
 const cp = (from: string | URL, to: string | URL) => Deno.copyFile(from, to);
 const padStart = (n: number) => String(n).padStart(2, "0");
 const dateTimeFormatted = (date: Date) => {
-  return `${padStart(date.getMonth())}/${padStart(date.getDay())}/${
-    padStart(date.getFullYear())
-  }, ${padStart(date.getHours())}:${padStart(date.getMinutes())}:${
-    padStart(date.getSeconds())
-  }`;
+  const day = padStart(date.getDay());
+  const month = padStart(date.getMonth());
+  const year = padStart(date.getFullYear());
+  const hours = padStart(date.getHours());
+  const minutes = padStart(date.getMinutes());
+  const seconds = padStart(date.getSeconds());
+
+  return `${month}/${day}/${year}, ${hours}:${minutes}:${seconds}`;
 };
 
 async function main() {
